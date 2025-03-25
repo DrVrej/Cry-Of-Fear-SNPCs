@@ -3,15 +3,4 @@ ENT.Type 			= "ai"
 ENT.PrintName 		= "Slower Stuck"
 ENT.Author 			= "DrVrej"
 ENT.Contact 		= "http://steamcommunity.com/groups/vrejgaming"
-ENT.Purpose 		= "Spawn it and fight with it!"
-ENT.Instructions 	= "Click on the spawnicon to spawn it."
 ENT.Category		= "Cry Of Fear"
-
-if (CLIENT) then
-local Name = "Slower Stuck"
-local LangName = "npc_vj_cof_slowerstuck"
-language.Add(LangName, Name)
-killicon.Add(LangName,"HUD/killicons/default",Color(255,80,0,255))
-language.Add("#"..LangName, Name)
-killicon.Add("#"..LangName,"HUD/killicons/default",Color(255,80,0,255))
-end
